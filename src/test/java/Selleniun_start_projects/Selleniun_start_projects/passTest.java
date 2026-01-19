@@ -25,7 +25,7 @@ public class PassTest {
      }
 
      @Test
-     public void testValidInput() {
+     public void EverythingLegal() {
           // טסט טוב שבודק שהכל טוב
           WebElement input = browser.findElement(By.name("characters"));
           input.sendKeys("Abc123*"); 
@@ -36,7 +36,7 @@ public class PassTest {
      }
 
      @Test
-     public void testInvalidCharacters() {
+     public void InvalidCharacter() {
           // טסט ששם תווים לא חוקיים
           WebElement input = browser.findElement(By.name("characters"));
           input.sendKeys("Abc12#*"); 
@@ -47,7 +47,7 @@ public class PassTest {
      }
 
      @Test
-     public void testTooShort() {
+     public void TooShort() {
           // טסט עם מספר תווים לא תקין
           WebElement input = browser.findElement(By.name("characters"));
           input.sendKeys("Abc1*"); 
@@ -57,14 +57,10 @@ public class PassTest {
           assertEquals("Invalid Input", message);
      }
 
-     @Test
-     public void testTooShort() {
-          // טסט ללא מספרים
-          WebElement input = browser.findElement(By.name("characters"));
-          input.sendKeys("Abcdef*"); 
-          browser.findElement(By.name("validate")).click();
-          
-          String message = browser.findElement(By.name("validation_message")).getText();
-          assertEquals("Invalid Input", message);
+     @After
+     public void tearDown() {
+          if (browser != null) {
+               browser.quit();
+          }
      }
 }

@@ -5,10 +5,9 @@
     <classes>
       <class name="Selleniun_start_projects.Selleniun_start_projects.PassTest">
         <methods>
-          <include name="testTooLong"/>
-          <include name="testTooShort"/>
-          <include name="testValidInput"/>
-          <include name="testInvalidCharacters"/>
+          <include name="Test3"/>
+          <include name="Test2"/>
+          <include name="Test1"/>
         </methods>
       </class> <!-- Selleniun_start_projects.Selleniun_start_projects.PassTest -->
     </classes>

@@ -1,20 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 30.795 s <<< FAILURE! - in TestSuite
-testTooLong on testTooLong(Selleniun_start_projects.Selleniun_start_projects.PassTest)(Selleniun_start_projects.Selleniun_start_projects.PassTest)  Time elapsed: 5.671 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[Invalid Input]> but was:<[]>
-	at Selleniun_start_projects.Selleniun_start_projects.PassTest.testTooLong(PassTest.java:68)
-
-testValidInput on testValidInput(Selleniun_start_projects.Selleniun_start_projects.PassTest)(Selleniun_start_projects.Selleniun_start_projects.PassTest)  Time elapsed: 5.702 s  <<< FAILURE!
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 26.318 s <<< FAILURE! - in TestSuite
+Test1 on Test1(Selleniun_start_projects.Selleniun_start_projects.PassTest)(Selleniun_start_projects.Selleniun_start_projects.PassTest)  Time elapsed: 6.36 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[Valid Input]> but was:<[]>
-	at Selleniun_start_projects.Selleniun_start_projects.PassTest.testValidInput(PassTest.java:35)
+	at Selleniun_start_projects.Selleniun_start_projects.PassTest.Test1(PassTest.java:35)
 
-testTooShort on testTooShort(Selleniun_start_projects.Selleniun_start_projects.PassTest)(Selleniun_start_projects.Selleniun_start_projects.PassTest)  Time elapsed: 5.929 s  <<< FAILURE!
+Test2 on Test2(Selleniun_start_projects.Selleniun_start_projects.PassTest)(Selleniun_start_projects.Selleniun_start_projects.PassTest)  Time elapsed: 5.557 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[Invalid Input]> but was:<[]>
-	at Selleniun_start_projects.Selleniun_start_projects.PassTest.testTooShort(PassTest.java:57)
+	at Selleniun_start_projects.Selleniun_start_projects.PassTest.Test2(PassTest.java:46)
 
-testInvalidCharacters on testInvalidCharacters(Selleniun_start_projects.Selleniun_start_projects.PassTest)(Selleniun_start_projects.Selleniun_start_projects.PassTest)  Time elapsed: 5.756 s  <<< FAILURE!
+Test3 on Test3(Selleniun_start_projects.Selleniun_start_projects.PassTest)(Selleniun_start_projects.Selleniun_start_projects.PassTest)  Time elapsed: 6.838 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[Invalid Input]> but was:<[]>
-	at Selleniun_start_projects.Selleniun_start_projects.PassTest.testInvalidCharacters(PassTest.java:46)
+	at Selleniun_start_projects.Selleniun_start_projects.PassTest.Test3(PassTest.java:57)
 
