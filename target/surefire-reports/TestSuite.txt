@@ -1,4 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.809 s - in TestSuite
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 30.795 s <<< FAILURE! - in TestSuite
+testTooLong on testTooLong(Selleniun_start_projects.Selleniun_start_projects.PassTest)(Selleniun_start_projects.Selleniun_start_projects.PassTest)  Time elapsed: 5.671 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Invalid Input]> but was:<[]>
+	at Selleniun_start_projects.Selleniun_start_projects.PassTest.testTooLong(PassTest.java:68)
+
+testValidInput on testValidInput(Selleniun_start_projects.Selleniun_start_projects.PassTest)(Selleniun_start_projects.Selleniun_start_projects.PassTest)  Time elapsed: 5.702 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Valid Input]> but was:<[]>
+	at Selleniun_start_projects.Selleniun_start_projects.PassTest.testValidInput(PassTest.java:35)
+
+testTooShort on testTooShort(Selleniun_start_projects.Selleniun_start_projects.PassTest)(Selleniun_start_projects.Selleniun_start_projects.PassTest)  Time elapsed: 5.929 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Invalid Input]> but was:<[]>
+	at Selleniun_start_projects.Selleniun_start_projects.PassTest.testTooShort(PassTest.java:57)
+
+testInvalidCharacters on testInvalidCharacters(Selleniun_start_projects.Selleniun_start_projects.PassTest)(Selleniun_start_projects.Selleniun_start_projects.PassTest)  Time elapsed: 5.756 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Invalid Input]> but was:<[]>
+	at Selleniun_start_projects.Selleniun_start_projects.PassTest.testInvalidCharacters(PassTest.java:46)
+
