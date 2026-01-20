@@ -3,13 +3,13 @@
 <suite thread-count="1" junit="true" name="Failed suite [Surefire suite]" verbose="0">
   <test junit="true" name="Surefire test(failed)">
     <classes>
-      <class name="Selleniun_start_projects.Selleniun_start_projects.PassTest">
+      <class name="Selleniun_start_projects.Selleniun_start_projects.CalculatorTests">
         <methods>
-          <include name="Test3"/>
-          <include name="Test2"/>
-          <include name="Test1"/>
+          <include name="TenMultiplyTwo"/>
+          <include name="TenMultiplyTen"/>
+          <include name="TenPlusTen"/>
         </methods>
-      </class> <!-- Selleniun_start_projects.Selleniun_start_projects.PassTest -->
+      </class> <!-- Selleniun_start_projects.Selleniun_start_projects.CalculatorTests -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

@@ -11,7 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertEquals;
 
-public class PassTest {
+public class PasswordFieldTests {
      
      static WebDriver browser;
      

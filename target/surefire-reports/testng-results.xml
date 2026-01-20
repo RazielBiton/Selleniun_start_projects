@@ -1,190 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="4" passed="1" failed="3" skipped="0">
+<testng-results total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-19T11:15:17Z" name="Surefire suite" finished-at="2026-01-19T11:15:43Z" duration-ms="25979">
+  <suite started-at="2026-01-19T14:31:47Z" name="Surefire suite" finished-at="2026-01-19T14:32:32Z" duration-ms="45841">
     <groups>
     </groups>
-    <test started-at="2026-01-19T11:15:17Z" name="Surefire test" finished-at="2026-01-19T11:15:43Z" duration-ms="25979">
-      <class name="Selleniun_start_projects.Selleniun_start_projects.AppTest">
-        <test-method signature="Tests1()[pri:0, instance:Tests1(Selleniun_start_projects.Selleniun_start_projects.AppTest)]" started-at="2026-01-19T13:15:17Z" name="Tests1" finished-at="2026-01-19T13:15:24Z" duration-ms="7158" status="PASS">
+    <test started-at="2026-01-19T14:31:47Z" name="Surefire test" finished-at="2026-01-19T14:32:32Z" duration-ms="45841">
+      <class name="Selleniun_start_projects.Selleniun_start_projects.CalculatorTests">
+        <test-method signature="SixMinusTwo()[pri:0, instance:SixMinusTwo(Selleniun_start_projects.Selleniun_start_projects.CalculatorTests)]" started-at="2026-01-19T16:31:47Z" name="SixMinusTwo" finished-at="2026-01-19T16:31:55Z" duration-ms="8591" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tests1 -->
-      </class> <!-- Selleniun_start_projects.Selleniun_start_projects.AppTest -->
-      <class name="Selleniun_start_projects.Selleniun_start_projects.PassTest">
-        <test-method signature="Test1()[pri:0, instance:Test1(Selleniun_start_projects.Selleniun_start_projects.PassTest)]" started-at="2026-01-19T13:15:24Z" name="Test1" finished-at="2026-01-19T13:15:30Z" duration-ms="6354" status="FAIL">
-          <exception class="org.junit.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<[Valid Input]> but was:<[]>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.junit.ComparisonFailure: expected:<[Valid Input]> but was:<[]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at Selleniun_start_projects.Selleniun_start_projects.PassTest.Test1(PassTest.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
-	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
-	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
-	at org.testng.TestRunner$1.run(TestRunner.java:682)
-	at org.testng.TestRunner.runWorkers(TestRunner.java:1012)
-	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:198)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.junit.ComparisonFailure -->
+        </test-method> <!-- SixMinusTwo -->
+        <test-method signature="OnePlusThree()[pri:0, instance:OnePlusThree(Selleniun_start_projects.Selleniun_start_projects.CalculatorTests)]" started-at="2026-01-19T16:31:55Z" name="OnePlusThree" finished-at="2026-01-19T16:32:03Z" duration-ms="7527" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method signature="Test2()[pri:0, instance:Test2(Selleniun_start_projects.Selleniun_start_projects.PassTest)]" started-at="2026-01-19T13:15:30Z" name="Test2" finished-at="2026-01-19T13:15:36Z" duration-ms="5558" status="FAIL">
-          <exception class="org.junit.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<[Invalid Input]> but was:<[]>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.junit.ComparisonFailure: expected:<[Invalid Input]> but was:<[]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at Selleniun_start_projects.Selleniun_start_projects.PassTest.Test2(PassTest.java:46)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
-	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
-	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
-	at org.testng.TestRunner$1.run(TestRunner.java:682)
-	at org.testng.TestRunner.runWorkers(TestRunner.java:1012)
-	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:198)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.junit.ComparisonFailure -->
+        </test-method> <!-- OnePlusThree -->
+        <test-method signature="FivePlusFive()[pri:0, instance:FivePlusFive(Selleniun_start_projects.Selleniun_start_projects.CalculatorTests)]" started-at="2026-01-19T16:32:03Z" name="FivePlusFive" finished-at="2026-01-19T16:32:10Z" duration-ms="7516" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method signature="Test3()[pri:0, instance:Test3(Selleniun_start_projects.Selleniun_start_projects.PassTest)]" started-at="2026-01-19T13:15:36Z" name="Test3" finished-at="2026-01-19T13:15:43Z" duration-ms="6838" status="FAIL">
-          <exception class="org.junit.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<[Invalid Input]> but was:<[]>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.junit.ComparisonFailure: expected:<[Invalid Input]> but was:<[]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at Selleniun_start_projects.Selleniun_start_projects.PassTest.Test3(PassTest.java:57)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
-	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
-	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
-	at org.testng.TestRunner$1.run(TestRunner.java:682)
-	at org.testng.TestRunner.runWorkers(TestRunner.java:1012)
-	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:198)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.junit.ComparisonFailure -->
+        </test-method> <!-- FivePlusFive -->
+        <test-method signature="FiveMinusOne()[pri:0, instance:FiveMinusOne(Selleniun_start_projects.Selleniun_start_projects.CalculatorTests)]" started-at="2026-01-19T16:32:10Z" name="FiveMinusOne" finished-at="2026-01-19T16:32:18Z" duration-ms="7488" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test3 -->
-      </class> <!-- Selleniun_start_projects.Selleniun_start_projects.PassTest -->
+        </test-method> <!-- FiveMinusOne -->
+        <test-method signature="SixMultiplySix()[pri:0, instance:SixMultiplySix(Selleniun_start_projects.Selleniun_start_projects.CalculatorTests)]" started-at="2026-01-19T16:32:18Z" name="SixMultiplySix" finished-at="2026-01-19T16:32:25Z" duration-ms="7348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SixMultiplySix -->
+        <test-method signature="SixMultiplyTwo()[pri:0, instance:SixMultiplyTwo(Selleniun_start_projects.Selleniun_start_projects.CalculatorTests)]" started-at="2026-01-19T16:32:25Z" name="SixMultiplyTwo" finished-at="2026-01-19T16:32:32Z" duration-ms="7316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SixMultiplyTwo -->
+      </class> <!-- Selleniun_start_projects.Selleniun_start_projects.CalculatorTests -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
