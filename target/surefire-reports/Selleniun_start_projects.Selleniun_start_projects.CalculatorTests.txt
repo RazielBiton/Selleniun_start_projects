@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Selleniun_start_projects.Selleniun_start_projects.CalculatorTests
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 46.19 s - in Selleniun_start_projects.Selleniun_start_projects.CalculatorTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 46.038 s - in Selleniun_start_projects.Selleniun_start_projects.CalculatorTests

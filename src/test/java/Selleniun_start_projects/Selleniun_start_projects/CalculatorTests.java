@@ -45,6 +45,8 @@ public class CalculatorTests { // שינוי שם ל-PascalCase כמקובל ב-
         
         String expected = "4";
         assertEquals("The calculator should show 4", expected, result);
+
+
     }
 
     @Test

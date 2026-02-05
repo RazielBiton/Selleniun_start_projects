@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="6" passed="6" failed="0" skipped="0">
+<testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-19T14:31:47Z" name="Surefire suite" finished-at="2026-01-19T14:32:32Z" duration-ms="45841">
+  <suite started-at="2026-02-05T17:17:09Z" name="Surefire suite" finished-at="2026-02-05T17:17:31Z" duration-ms="22323">
     <groups>
     </groups>
-    <test started-at="2026-01-19T14:31:47Z" name="Surefire test" finished-at="2026-01-19T14:32:32Z" duration-ms="45841">
-      <class name="Selleniun_start_projects.Selleniun_start_projects.CalculatorTests">
-        <test-method signature="SixMinusTwo()[pri:0, instance:SixMinusTwo(Selleniun_start_projects.Selleniun_start_projects.CalculatorTests)]" started-at="2026-01-19T16:31:47Z" name="SixMinusTwo" finished-at="2026-01-19T16:31:55Z" duration-ms="8591" status="PASS">
+    <test started-at="2026-02-05T17:17:09Z" name="Surefire test" finished-at="2026-02-05T17:17:31Z" duration-ms="22323">
+      <class name="Selleniun_start_projects.Selleniun_start_projects.PasswordFieldTests">
+        <test-method signature="EP_InvalidCharacter()[pri:0, instance:EP_InvalidCharacter(Selleniun_start_projects.Selleniun_start_projects.PasswordFieldTests)]" started-at="2026-02-05T19:17:09Z" name="EP_InvalidCharacter" finished-at="2026-02-05T19:17:16Z" duration-ms="7615" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SixMinusTwo -->
-        <test-method signature="OnePlusThree()[pri:0, instance:OnePlusThree(Selleniun_start_projects.Selleniun_start_projects.CalculatorTests)]" started-at="2026-01-19T16:31:55Z" name="OnePlusThree" finished-at="2026-01-19T16:32:03Z" duration-ms="7527" status="PASS">
+        </test-method> <!-- EP_InvalidCharacter -->
+        <test-method signature="EP_EverythingGood()[pri:0, instance:EP_EverythingGood(Selleniun_start_projects.Selleniun_start_projects.PasswordFieldTests)]" started-at="2026-02-05T19:17:16Z" name="EP_EverythingGood" finished-at="2026-02-05T19:17:24Z" duration-ms="7610" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OnePlusThree -->
-        <test-method signature="FivePlusFive()[pri:0, instance:FivePlusFive(Selleniun_start_projects.Selleniun_start_projects.CalculatorTests)]" started-at="2026-01-19T16:32:03Z" name="FivePlusFive" finished-at="2026-01-19T16:32:10Z" duration-ms="7516" status="PASS">
+        </test-method> <!-- EP_EverythingGood -->
+        <test-method signature="EP_TooShort()[pri:0, instance:EP_TooShort(Selleniun_start_projects.Selleniun_start_projects.PasswordFieldTests)]" started-at="2026-02-05T19:17:24Z" name="EP_TooShort" finished-at="2026-02-05T19:17:31Z" duration-ms="7041" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FivePlusFive -->
-        <test-method signature="FiveMinusOne()[pri:0, instance:FiveMinusOne(Selleniun_start_projects.Selleniun_start_projects.CalculatorTests)]" started-at="2026-01-19T16:32:10Z" name="FiveMinusOne" finished-at="2026-01-19T16:32:18Z" duration-ms="7488" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FiveMinusOne -->
-        <test-method signature="SixMultiplySix()[pri:0, instance:SixMultiplySix(Selleniun_start_projects.Selleniun_start_projects.CalculatorTests)]" started-at="2026-01-19T16:32:18Z" name="SixMultiplySix" finished-at="2026-01-19T16:32:25Z" duration-ms="7348" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SixMultiplySix -->
-        <test-method signature="SixMultiplyTwo()[pri:0, instance:SixMultiplyTwo(Selleniun_start_projects.Selleniun_start_projects.CalculatorTests)]" started-at="2026-01-19T16:32:25Z" name="SixMultiplyTwo" finished-at="2026-01-19T16:32:32Z" duration-ms="7316" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SixMultiplyTwo -->
-      </class> <!-- Selleniun_start_projects.Selleniun_start_projects.CalculatorTests -->
+        </test-method> <!-- EP_TooShort -->
+      </class> <!-- Selleniun_start_projects.Selleniun_start_projects.PasswordFieldTests -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

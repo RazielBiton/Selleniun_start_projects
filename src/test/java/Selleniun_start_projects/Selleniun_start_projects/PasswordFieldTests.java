@@ -20,42 +20,44 @@ public class PasswordFieldTests {
           WebDriverManager.firefoxdriver().setup();
           browser = new FirefoxDriver();
           browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+          
           // הכתובת המדויקת של עמוד הבדיקה
           browser.get("https://testpages.eviltester.com/apps/7-char-val/");
      }
 
      @Test
-     public void EverythingLegal() {
+     public void EP_EverythingGood() {
           // טסט טוב שבודק שהכל טוב
           WebElement input = browser.findElement(By.name("characters"));
           input.sendKeys("Abc123*"); 
           browser.findElement(By.name("validate")).click();
           
-          String message = browser.findElement(By.name("validation_message")).getText();
-          assertEquals("Valid Input", message);
+          String message = browser.findElement(By.name("validation_message")).getAttribute("value");
+          assertEquals("Valid Value", message);
      }
 
      @Test
-     public void InvalidCharacter() {
+     public void EP_InvalidCharacter() {
           // טסט ששם תווים לא חוקיים
           WebElement input = browser.findElement(By.name("characters"));
           input.sendKeys("Abc12#*"); 
           browser.findElement(By.name("validate")).click();
           
-          String message = browser.findElement(By.name("validation_message")).getText();
-          assertEquals("Invalid Input", message);
+          String message = browser.findElement(By.name("validation_message")).getAttribute("value");
+          assertEquals("Invalid Value", message);
      }
 
      @Test
-     public void TooShort() {
+     public void EP_TooShort() {
           // טסט עם מספר תווים לא תקין
           WebElement input = browser.findElement(By.name("characters"));
           input.sendKeys("Abc1*"); 
           browser.findElement(By.name("validate")).click();
           
-          String message = browser.findElement(By.name("validation_message")).getText();
-          assertEquals("Invalid Input", message);
+          String message = browser.findElement(By.name("validation_message")).getAttribute("value");
+          assertEquals("Invalid Value", message);
      }
+
 
      @After
      public void tearDown() {
