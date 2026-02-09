@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class CalculatorTests { // שינוי שם ל-PascalCase כמקובל ב-Java
+public class CalculatorTests { 
     
     static WebDriver browser;
      
